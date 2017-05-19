@@ -1,0 +1,25 @@
+{
+  "name": "slackdemobot",
+  "version": "1.0.0",
+  "description": "playing around with wit.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishnandwani/slackdemobot.git"
+  },
+  "author": "Ashish Nandwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishnandwani/slackdemobot/issues"
+  },
+  "homepage": "https://github.com/ashishnandwani/slackdemobot#readme",
+  "dependencies": {
+    "botkit": "^0.5.4",
+    "slack-client": "^2.0.6",
+    "witbot": "^2.1.0"
+  }
+}
